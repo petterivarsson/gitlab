@@ -1,0 +1,40 @@
+
+
+1- Create SSH key
+
+if you don't have the ssh-key create it like this:
+
+ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+
+2- Check your SSH key
+
+For this go to your folder ssh, example:
+
+cd ~/.ssh
+
+after that, run this command line : ls
+
+if you have the files: id_rsa, id_rsa.pub so the all is good
+
+now you need to copy your id_rsa.pub ! (⚠️ NOT the id_rsa) for this run cat id_rsa.pub and copy the result
+3- Github / Gitlab
+
+    Go to your github / gitlab.
+
+    Follow the step by your hosting:
+
+    github: Click on your profile -> Settings -> SSH and GPG Keys -> New SSH key
+    gitlab: Click on your profile -> preferences -> SSH keys
+
+    past your id_rsa.pub that you have already copied !
+
+4- If you have already did it and it's already not working ??
+
+When your enter your ssh-key in github / gitlab your key have a Expiration date so you just need to change it
+
+That it ! Have a good work 😀
+
+
+ git config --global user.email "you@example.com"
+  git config --global user.name "Your Name
+
