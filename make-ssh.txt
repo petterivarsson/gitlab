@@ -1,3 +1,5 @@
+git config --global user.email "petter.ivarsson@gmail.com"
+git config --global user.name "Petter Ivarsson"
 
 
 1- Create SSH key
@@ -17,6 +19,7 @@ after that, run this command line : ls
 if you have the files: id_rsa, id_rsa.pub so the all is good
 
 now you need to copy your id_rsa.pub ! (⚠️ NOT the id_rsa) for this run cat id_rsa.pub and copy the result
+
 3- Github / Gitlab
 
     Go to your github / gitlab.
@@ -35,6 +38,4 @@ When your enter your ssh-key in github / gitlab your key have a Expiration date 
 That it ! Have a good work 😀
 
 
- git config --global user.email "you@example.com"
-  git config --global user.name "Your Name
 
