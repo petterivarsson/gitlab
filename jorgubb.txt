@@ -1,2 +1,3 @@
 egen branch jordgubb för fil jordgubb.txt
 gick inge bra vi merge, provar igen
+nu har jag switchat till branch jordgubb
