@@ -1,4 +1,0 @@
-egen branch jordgubb för fil jordgubb.txt
-gick inge bra vi merge, provar igen
-
-det här skriver jag im main
