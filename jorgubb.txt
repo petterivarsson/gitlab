@@ -2,4 +2,4 @@ egen branch jordgubb för fil jordgubb.txt
 gick inge bra vi merge, provar igen
 det här skriver jag im main
 nu har jag switchat till branch jordgubb
-skriver detta på rad 5 i branch main
+skriver detta på rad 5 i branch apple
